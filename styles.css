@@ -1,0 +1,164 @@
+/* YOUR STYLES HERE */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    font-size: 14px;
+    color: black;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+#profile-pic {
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
+
+#profile-pic:hover {
+    box-shadow: 0px 0px 5px #c2c2c2;
+}
+
+#store-link {
+    margin-right: auto;
+}
+
+#search {
+    margin-top: 120px;
+    text-align: center;
+}
+
+#main-logo {
+    width: 400px;
+}
+
+#search-bar {
+    height: 34px;
+    font-size: 17px;
+    border-radius: 17px;
+
+    border: 1px solid #c2c2c2;
+    width: 90%;
+    max-width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+#search-bar:hover,
+#search-bar:focus {
+    box-shadow: 0px 0px 5px #c2c2c2; 
+}
+
+#search-button {
+    display: flex;
+    justify-content: center;
+}
+
+.search-button {
+    margin: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+
+    background-color: #f8f9fa;
+    border: 1px solid #4b4b4b;
+    border-radius: 4px;
+}
+
+.search-button:hover {
+    box-shadow: 0px 0px 5px #c2c2c2;
+}
+  
+#welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif4;
+}
+
+.welcome-text {
+    font-size: 50px;
+    color: #000080;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+#back {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif4;
+}
+
+.page {
+    flex: 33.33%;
+    color: #000099;
+    width: 100%;
+}
+
+.pic-row {
+    display: flex;
+}
+  
+.pic-column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+#github-link {
+    margin-right: auto;
+}
+
+.flip-box {
+    background-color: transparent;
+    perspective: 1000px;
+    width: 100%;
+    height: 100%;
+}
+
+.flip-box-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 2.0s;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+    background-color: #D1EAF8;
+    color: #000099;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    align-content: center;
+    text-indent: 50px;
+    line-height: 30px;
+    transform: rotateY(180deg);
+}
+
+.end-text {
+    color: #000080;
+    margin: 10px 10px;
+    text-decoration: none;
+
+}
